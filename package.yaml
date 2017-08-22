@@ -1,0 +1,21 @@
+name: terrorjack-blog
+version: 0.0.1
+category: Web
+synopsis: My personal blog.
+stability: alpha
+maintainer: Shao Cheng <astrohavoc@gmail.com>
+copyright: (c) 2017 Shao Cheng
+license: BSD3
+github: TerrorJack/terrorjack.github.io
+
+extra-source-files:
+  - LICENSE
+
+ghc-options: -Wall
+
+executables:
+  blog:
+    source-dirs: app
+    main: Main.hs
+    dependencies:
+      - base
